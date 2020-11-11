@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+nav a:hover{
+    color: rgb(48, 1, 136) !important;
+    font-weight: bold;
+}
+.background{
+  background-color:rgb(212, 208, 208);
+}
+.brand_name{
+ color: blue;
+
+
+}
+.btn_style{
+  border-radius: 20px;
+border: 2px solid rgb(70, 182, 247);
+ background-color: rgb(190, 245, 245);
+
+}
+.btn_style a:hover{
+  color: rgb(17, 7, 7);
+  transition: 0.5s;
+ 
+}
+.text-underline{
+ text-decoration: none;
+ color: black;
+}
+.heaad{
+  height: 400px;
+  width: 400px; 
+  
+}
+.heaad img{
+  border-radius: 50%;
+  margin-top:30%;
+  animation:up-down 2s infinite ease-in-out alternate-reverse both;
+ 
+}
+@keyframes up-down{
+  0%{
+  transform: translateY(10px);
+  }
+  100%{
+      transform: translateY(-10px);
+  }
+}
+.heading{
+  margin-top: auto;
+  font-size: 35px;
+  color: darkgrey;
+}
+.heading2{
+  font-size: 25px;
+  color: darkgrey;
+}
+.brand_decoration{
+  font-size: x-large;
+  color:darkgrey;
+  font-weight: bold;
+}
+footer{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+
+
